@@ -1,7 +1,7 @@
 import React from 'react';
 import ThoughtList from '../components/ThoughtList';
 
-import { useQuery } from '@apollo/react-hooks';
+import { useQuery } from '@apollo/client';
 import { QUERY_THOUGHTS } from '../utils/queries';
 
 const Home = () => {
